@@ -23,6 +23,10 @@ body {
   opacity: 100% !important;
 }
 
+.container {
+  padding-bottom: 30px;
+}
+
 .wrapper-sidebar {
   width: 70px;
   height: 100vh;
@@ -71,14 +75,14 @@ body {
   padding: 50px 20px;
 }
 
-.wrapper-main .search {
+.wrapper-main .container .search {
   display: inline-block;
   background-color: transparent;
   padding: 8px 20px;
   border-radius: 20px;
 }
 
-.wrapper-main .search i {
+.wrapper-main .container .search i {
   position: relative;
   top: 3px;
   color: #fff;
@@ -87,7 +91,7 @@ body {
   margin-right: 10px;
 }
 
-.wrapper-main .search input {
+.wrapper-main .container .search input {
   background-color: transparent;
   color: #fff;
   font-size: 18px;
@@ -96,6 +100,6 @@ body {
   width: 300px;
 }
 
-.wrapper-main .search input:focus {
+.wrapper-main .container .search input:focus {
   outline: none;
 }
