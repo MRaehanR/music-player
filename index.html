@@ -17,6 +17,7 @@
     <title>Music Player</title>
   </head>
   <body>
+    <!-- Sidebar -->
     <div class="wrapper-sidebar">
       <div class="sidebar-sticky">
         <div class="sidebar">
@@ -36,6 +37,9 @@
         </div>
       </div>
     </div>
+    <!-- Sidebar End -->
+
+    <!-- Main -->
     <div class="wrapper-main">
       <div class="container">
         <div class="search">
@@ -263,6 +267,48 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+    <!-- Main End -->
+
+    <!-- Player Song -->
+    <div class="wrapper-player-song">
+      <div class="player">
+        <div class="play-song">
+          <img
+            src="https://i.scdn.co/image/ab67616d00001e02565b3ad34ad3659a8767719c"
+            alt="cover-img"
+            width="75px"
+          />
+          <div class="play-song-text">
+            <a href="#">Lonliness</a>
+            <a href="#">Putri Ariani</a>
+          </div>
+        </div>
+        <div class="player-button">
+          <div class="player-button-item">
+            <button>
+              <i class="fa-solid fa-shuffle"></i>
+            </button>
+            <button>
+              <i class="fa-solid fa-backward-step"></i>
+            </button>
+            <button>
+              <i class="fa-solid fa-circle-play"></i>
+            </button>
+            <button>
+              <i class="fa-solid fa-forward-step"></i>
+            </button>
+            <button>
+              <i class="fa-solid fa-repeat"></i>
+            </button>
+          </div>
+          <input type="range" min="0" max="100" />
+        </div>
+        <div class="player-button-volume">
+          <i class="fa-solid fa-volume-high"></i>
+          <input type="range" min="0" max="100" />
         </div>
       </div>
     </div>
